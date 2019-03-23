@@ -3,17 +3,20 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
-class Toggle extends React.Component{
-    constructor(props){
-        super(props);
-        this.state = {isToggleOn :true}
-        this.handleCheck = this.handleCheck.bind(this)
-    }
-    handleCheck(){
-        this.setState(state=> ({isToggleOn:!state.isToggleOn}))
-    }
-    render() {
-        return <button onClick={this.handleCheck}>{this.state.isToggleOn?'on':'off'}</button>
+function UserGreeting(props){
+    return <h2>hello {props.userName}</h2>;
+}
+function StrangeGreeting(props) {
+    return <h2>please log in</h2>;
+}
+
+function Greeting(props){
+    const  isLogIn = props.isLogIn;
+    const userName = props.userName;
+    if(isLogIn){
+        return <UserGreeting userName={userName}/>
+    }else {
+        return <StrangeGreeting/>
     }
 }
-ReactDOM.render(<Toggle/>,document.getElementById('root'))
+ReactDOM.render(<Greeting isLogIn={false} userName={"Amy"}/>,document.getElementById('root'));

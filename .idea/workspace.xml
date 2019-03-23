@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f17de256-777f-4ab9-ac8c-f3f84bcc820a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,10 +36,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="275">
+              <caret line="17" column="11" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
+                <element signature="e#8#34#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -58,8 +60,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
+    <option name="x" value="952" />
+    <option name="width" value="975" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -104,6 +106,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -142,7 +145,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553238689431</updated>
-      <workItem from="1553238691252" duration="9101000" />
+      <workItem from="1553238691252" duration="14309000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1553261127563</created>
@@ -179,31 +182,54 @@
       <option name="project" value="LOCAL" />
       <updated>1553265585345</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="5. State &amp; 生命周期&#10;数据是向下流动的">
+      <created>1553266066406</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1553266066406</updated>
+    </task>
+    <task id="LOCAL-00007" summary="6. 事件处理&#10;为按钮设置监听事件">
+      <created>1553307532220</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1553307532220</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9101000" />
+    <option name="totallyTimeSpent" value="14309000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="952" y="0" width="975" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="npm" side_tool="true" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24946237" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24919441" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.3416771" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.50107527" side_tool="true" visible="true" weight="0.38297874" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49892473" visible="true" weight="0.38297874" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="1" sideWeight="0.49946293" weight="0.32916147" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5016112" side_tool="true" weight="0.38297874" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Find" order="4" />
+      <window_info anchor="bottom" id="Terminal" order="5" sideWeight="0.49946293" weight="0.3416771" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.49838883" visible="true" weight="0.29411766" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" sideWeight="0.49946293" weight="0.32916147" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -218,7 +244,8 @@
     <MESSAGE value="设置&lt;clock/&gt;组件，实现计时功能" />
     <MESSAGE value="5. State &amp; 生命周期&#10;时钟组件&lt;Clock/&gt;完全简化版" />
     <MESSAGE value="5. State &amp; 生命周期&#10;数据是向下流动的" />
-    <option name="LAST_COMMIT_MESSAGE" value="5. State &amp; 生命周期&#10;数据是向下流动的" />
+    <MESSAGE value="6. 事件处理&#10;为按钮设置监听事件" />
+    <option name="LAST_COMMIT_MESSAGE" value="6. 事件处理&#10;为按钮设置监听事件" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/package.json">
@@ -271,10 +298,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="275">
+          <caret line="17" column="11" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
+            <element signature="e#8#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
