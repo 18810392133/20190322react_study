@@ -2,23 +2,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import * as serviceWorker from './serviceWorker';
-function FormattedTime(props){
-    return <h2>the time is {props.date.toLocaleTimeString()}</h2>;
-}
 
-class Clock extends React.Component{
+class Toggle extends React.Component{
     constructor(props){
         super(props);
-        this.state = {date:new Date()};
+        this.state = {isToggleOn :true}
+        this.handleCheck = this.handleCheck.bind(this)
     }
-    componentDidMount() {
-       setInterval(()=>this.setState({date:new Date()}),1000);
+    handleCheck(){
+        this.setState(state=> ({isToggleOn:!state.isToggleOn}))
     }
     render() {
-        return (<div><h2>the time is {this.state.date.toLocaleTimeString()}</h2><FormattedTime date={this.state.date}/></div>);
+        return <button onClick={this.handleCheck}>{this.state.isToggleOn?'on':'off'}</button>
     }
 }
-ReactDOM.render(<Clock />,document.getElementById('root'));
-
-
+ReactDOM.render(<Toggle/>,document.getElementById('root'))
